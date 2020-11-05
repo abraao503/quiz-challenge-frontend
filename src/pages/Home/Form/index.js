@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import { useHistory } from 'react-router-dom';
 import Loader from 'react-loader-spinner';
 
-import { Container, Input, Button } from './styles';
+import { Container, Input } from './styles';
+import { Button } from '../../../styles';
 import api from '../../../services/api';
 import setUserToLocalStorage from '../../../utils/setUserToLocalStorage';
 
@@ -50,7 +51,7 @@ function Form() {
       />
       <Button 
         isLoading={loading}
-        disabled={buttonDisabled}
+        disabled={buttonDisabled || loading}
       >
         {loading ? <Loader type="Bars" color="#FFF" height={30} width={30} /> : 'Submit'}
       </Button>

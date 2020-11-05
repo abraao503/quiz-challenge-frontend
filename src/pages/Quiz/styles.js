@@ -17,27 +17,3 @@ export const Text = styled.p`
 export const List = styled.div`
   margin: 5px 0;
 `;
-
-export const Button = styled.button`
-  padding: ${props => props.isLoading ? '7.5px 0' : '12px 0'};
-  border: 0;
-  border-radius: 4px;
-  background-color: #6b1fb8;
-  color: white;
-  font-size: 18px;
-  width: 30%;
-  transition: 0.3s;
-  display: flex;
-  justify-content: center;
-  align-self: flex-end;
-  font-weight: bold;
-  cursor: pointer;
-
-  @media(max-width: 600px) {
-    width: 100%;
-  }
-
-  :hover {
-    opacity: 0.85;
-  }
-`;

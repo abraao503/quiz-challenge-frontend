@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Loader from 'react-loader-spinner';
 import { useHistory } from 'react-router-dom';
 
-import { Container } from '../../styles';
-import { Content, Text, List, Button } from './styles';
+import { Container, Button } from '../../styles';
+import { Content, Text, List } from './styles';
 import Footer from '../../components/Footer';
 
 import Question from './Question';
@@ -85,7 +85,11 @@ function Quiz() {
             />
           ))}
         </List>
-        <Button onClick={handleSubmit}>
+        <Button 
+          onClick={handleSubmit} 
+          isLoading={loading}
+          disabled={loading}
+        >
           {loading ? <Loader type="Bars" color="#FFF" height={30} width={30} /> : 'Submit'}
         </Button>
       </Content>
