@@ -10,6 +10,10 @@ export const Container = styled.div`
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
   padding: 15px 0;
+
+  @media(max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const Title = styled.p`
