@@ -50,4 +50,4 @@ yarn dev
 
 ## :rocket: Versão em produção
 
-Há uma versão dessa aplicação online. Ela pode ser acessada por esse [link](https://fervent-hawking-fcfeeb.netlify.app)
+Há uma versão online dessa aplicação. Ela pode ser acessada por esse [link](https://fervent-hawking-fcfeeb.netlify.app)
