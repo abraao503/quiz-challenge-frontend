@@ -5,7 +5,8 @@
 <p align="center">
   <a href="#space_invader-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-como-rodar-a-aplicação">Como rodar a aplicação</a>&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-como-rodar-a-aplicação">Como rodar a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-versão-em-produção">Versão em produção</a>&nbsp;&nbsp;&nbsp;
 </p>
 <br><br>
 
@@ -46,3 +47,7 @@ Por fim, rode o projeto.
 ```bash
 yarn dev
 ```
+
+## :rocket: Versão em produção
+
+Há uma versão dessa aplicação online. Ela pode ser acessada por esse [link](https://fervent-hawking-fcfeeb.netlify.app)
