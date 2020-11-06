@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :computer: Sobre o projeto
 
-Frontend de um pequeno LMS. para simplificar, estarei chamando ele de quiz. O Backend da aplicação pode ser encontrado [aqui](https://github.com/abraao503/quiz-challenge-frontend).    
+Frontend de um pequeno LMS. para simplificar, estarei chamando ele de quiz. O Backend da aplicação pode ser encontrado [aqui](https://github.com/abraao503/quiz-challenge-backend).    
 
 ## :information_source: Como rodar a aplicação
 
